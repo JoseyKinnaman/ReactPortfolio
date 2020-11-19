@@ -4,8 +4,14 @@ import React from 'react';
 const Projects = () => {
   return (
     <>
-      <h2>Work</h2>
-      image gallery
+    <div className="ui segment">
+      <h2>WORK</h2>
+      <ul>
+      <li><a href="https://fetchnamer.netlify.app/">Fetch!</a></li>
+      <li><a href="https://record-collector-epiapp.herokuapp.com/">ReCollector</a></li>
+      <li><a href="https://mariosspecialtyfoods.herokuapp.com/">Mario's Specialty foods</a></li>
+      </ul>
+    </div>
     </>
   );
 }

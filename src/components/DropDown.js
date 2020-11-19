@@ -3,7 +3,8 @@ import React from 'react';
 const DropDown = () => {
   return (
     <>
-      <h2>Drop Down Menu</h2>
+    <div className="ui segment"></div>
+      {/* <h2>Drop Down Menu</h2> */}
     </>
   );
 }

@@ -1,6 +1,7 @@
-import React from 'react';
-import './App.css';
-import DropDown from './DropDown';
+import React from 'react'
+import './App.css'
+import Header  from '../assets/Header.png'
+import DropDown from './DropDown'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
@@ -8,7 +9,7 @@ import Contact from './Contact'
 const App = () => {
   return (
     <div className="App">
-     <h1>Josey Kinnaman Portfolio</h1>
+      <header><img src={Header} alt="Fetch logo with dog and human"/></header>
      <DropDown/>
      <About />
      <Projects />
