@@ -5,7 +5,6 @@ const About = () => {
   return (
     <>
     <div className="ui segment">
-      <h2>SKILLS</h2>
       <ul>
         <li>React.js</li>
         <li>Ruby on Rails</li>
